@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>乳腺消结保健贴 - 雲茜姐姐 | 草本贴敷</title>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231B4D3E' width='100' height='100' rx='20'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%23C9A961' font-family='serif'>乳</text></svg>">
+<style>
+/* ===== 全局重置与变量 ===== */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --deep-green:#1B4D3E;
+  --ink-green:#0F2E22;
+  --moss-green:#2A6B52;
+  --gold:#C9A961;
+  --gold-light:#E0C98F;
+  --cream:#F7F4ED;
+  --warm-white:#FFFEF9;
+  --ink:#1A1A1A;
+  --gray-600:#5A5A5A;
+  --gray-400:#9A9A9A;
+  --line:#D9D2C4;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.8;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+.serif{font-family:'Noto Serif SC','Songti SC','SimSun',serif}
+
+/* ===== 通用区块 ===== */
+.section{padding:80px 24px;position:relative}
+.section-inner{max-width:720px;margin:0 auto}
+.divider-title{
+  text-align:center;
+  font-size:14px;
+  letter-spacing:0.6em;
+  color:var(--gold);
+  margin-bottom:16px;
+  font-weight:500;
+  text-indent:0.6em;
+}
+.section-title{
+  text-align:center;
+  font-size:32px;
+  font-weight:700;
+  color:var(--deep-green);
+  margin-bottom:48px;
+  letter-spacing:0.08em;
+}
+.section-title::after{
+  content:'';
+  display:block;
+  width:48px;
+  height:2px;
+  background:var(--gold);
+  margin:20px auto 0;
+}
+
+/* ===== Hero 区 ===== */
+.hero{
+  background:linear-gradient(180deg,var(--ink-green) 0%,var(--deep-green) 60%,var(--moss-green) 100%);
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:60px 24px 80px;
+  position:relative;
+  overflow:hidden;
+}
+.hero::before{
+  content:'';
+  position:absolute;
+  top:0;left:0;right:0;
+  height:6px;
+  background:repeating-linear-gradient(90deg,var(--gold) 0,var(--gold) 12px,transparent 12px,transparent 24px);
+  opacity:0.6;
+}
+.hero-product{
+  width:min(320px,70vw);
+  height:auto;
+  filter:drop-shadow(0 30px 60px rgba(0,0,0,0.4));
+  margin-bottom:40px;
+  animation:floatIn 1s ease-out;
+}
+@keyframes floatIn{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.hero-brand{
+  font-size:15px;
+  letter-spacing:0.4em;
+  color:var(--gold-light);
+  margin-bottom:20px;
+  text-indent:0.4em;
+  font-weight:400;
+}
+.hero-name{
+  font-size:clamp(36px,8vw,56px);
+  font-weight:900;
+  color:var(--warm-white);
+  letter-spacing:0.15em;
+  text-align:center;
+  line-height:1.3;
+  margin-bottom:12px;
+  text-shadow:0 2px 20px rgba(0,0,0,0.2);
+}
+.hero-pinyin{
+  font-size:13px;
+  letter-spacing:0.3em;
+  color:rgba(255,255,255,0.45);
+  margin-bottom:28px;
+  text-transform:uppercase;
+  text-indent:0.3em;
+}
+.hero-subtitle{
+  font-size:16px;
+  letter-spacing:0.35em;
+  color:var(--gold);
+  border:1px solid rgba(201,169,97,0.4);
+  padding:10px 32px;
+  border-radius:2px;
+  text-indent:0.35em;
+  background:rgba(201,169,97,0.06);
+}
+.hero-scroll{
+  position:absolute;
+  bottom:32px;
+  left:50%;
+  transform:translateX(-50%);
+  color:rgba(255,255,255,0.35);
+  font-size:12px;
+  letter-spacing:0.3em;
+  animation:bounce 2s infinite;
+}
+@keyframes bounce{
+  0%,100%{transform:translateX(-50%) translateY(0)}
+  50%{transform:translateX(-50%) translateY(8px)}
+}
+
+/* ===== 产品简介 ===== */
+.intro{background:var(--warm-white)}
+.intro-text{
+  font-size:16px;
+  line-height:2;
+  color:#333;
+  text-align:justify;
+  margin-bottom:24px;
+}
+.intro-text strong{color:var(--deep-green);font-weight:600}
+.intro-tip{
+  background:var(--cream);
+  border-left:3px solid var(--gold);
+  padding:20px 24px;
+  margin-top:32px;
+  border-radius:0 4px 4px 0;
+}
+.intro-tip-title{
+  font-size:14px;
+  font-weight:600;
+  color:var(--deep-green);
+  margin-bottom:8px;
+  letter-spacing:0.1em;
+}
+.intro-tip-text{
+  font-size:14px;
+  color:var(--gray-600);
+  line-height:1.9;
+}
+
+/* ===== 草本成分 ===== */
+.ingredients{background:var(--cream)}
+.ingredient-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  margin-bottom:32px;
+}
+.ingredient-card{
+  background:var(--warm-white);
+  border-radius:6px;
+  padding:28px 16px 24px;
+  text-align:center;
+  box-shadow:0 4px 20px rgba(27,77,62,0.06);
+  transition:transform 0.3s ease,box-shadow 0.3s ease;
+  border:1px solid rgba(201,169,97,0.15);
+}
+.ingredient-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 30px rgba(27,77,62,0.12);
+}
+.ingredient-char{
+  font-size:42px;
+  font-weight:900;
+  color:var(--deep-green);
+  line-height:1;
+  margin-bottom:12px;
+  font-family:'Noto Serif SC',serif;
+}
+.ingredient-name{
+  font-size:15px;
+  font-weight:600;
+  color:var(--ink);
+  margin-bottom:6px;
+}
+.ingredient-desc{
+  font-size:12px;
+  color:var(--gray-600);
+  line-height:1.6;
+}
+.ingredient-note{
+  text-align:center;
+  font-size:13px;
+  color:var(--gray-400);
+  letter-spacing:0.15em;
+  margin-top:8px;
+}
+.ingredient-full{
+  margin-top:36px;
+  background:var(--warm-white);
+  border-radius:6px;
+  padding:24px 28px;
+  border:1px solid var(--line);
+}
+.ingredient-full-title{
+  font-size:14px;
+  font-weight:600;
+  color:var(--deep-green);
+  margin-bottom:12px;
+  letter-spacing:0.1em;
+}
+.ingredient-full-text{
+  font-size:14px;
+  color:var(--gray-600);
+  line-height:2;
+}
+
+/* ===== 使用方法 ===== */
+.usage{background:var(--warm-white)}
+.usage-steps{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  position:relative;
+}
+.usage-step{
+  display:flex;
+  gap:24px;
+  padding:28px 0;
+  position:relative;
+}
+.usage-step:not(:last-child)::after{
+  content:'';
+  position:absolute;
+  left:27px;
+  top:72px;
+  bottom:0;
+  width:1px;
+  background:var(--line);
+}
+.usage-num{
+  flex-shrink:0;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  background:var(--deep-green);
+  color:var(--gold);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  font-weight:700;
+  font-family:'Noto Serif SC',serif;
+  position:relative;
+  z-index:1;
+  box-shadow:0 4px 16px rgba(27,77,62,0.2);
+}
+.usage-content{flex:1;padding-top:8px}
+.usage-step-title{
+  font-size:18px;
+  font-weight:600;
+  color:var(--deep-green);
+  margin-bottom:8px;
+  letter-spacing:0.05em;
+}
+.usage-step-desc{
+  font-size:14px;
+  color:var(--gray-600);
+  line-height:1.9;
+}
+.usage-warm{
+  margin-top:36px;
+  background:var(--cream);
+  border-radius:6px;
+  padding:20px 24px;
+  text-align:center;
+}
+.usage-warm-text{
+  font-size:14px;
+  color:var(--gray-600);
+  line-height:1.9;
+}
+.usage-warm-text strong{color:var(--deep-green);font-weight:600}
+
+/* ===== 产品参数 ===== */
+.specs{background:var(--cream)}
+.spec-table{
+  width:100%;
+  border-collapse:collapse;
+  background:var(--warm-white);
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 4px 20px rgba(27,77,62,0.06);
+}
+.spec-table tr{border-bottom:1px solid var(--line)}
+.spec-table tr:last-child{border-bottom:none}
+.spec-table th{
+  width:32%;
+  background:var(--deep-green);
+  color:var(--gold-light);
+  font-size:14px;
+  font-weight:500;
+  padding:16px 20px;
+  text-align:left;
+  letter-spacing:0.1em;
+  vertical-align:top;
+}
+.spec-table td{
+  padding:16px 20px;
+  font-size:14px;
+  color:#333;
+  line-height:1.8;
+  vertical-align:top;
+}
+.spec-table td .price{
+  font-size:20px;
+  font-weight:700;
+  color:var(--deep-green);
+}
+
+/* ===== 资质保障 ===== */
+.cert{background:var(--warm-white)}
+.cert-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin-bottom:24px;
+}
+.cert-card{
+  background:var(--cream);
+  border-radius:6px;
+  padding:28px 24px;
+  text-align:center;
+  border:1px solid rgba(201,169,97,0.2);
+  position:relative;
+}
+.cert-card::before{
+  content:'';
+  position:absolute;
+  top:0;left:50%;
+  transform:translateX(-50%);
+  width:40px;
+  height:3px;
+  background:var(--gold);
+}
+.cert-icon{
+  width:48px;
+  height:48px;
+  margin:0 auto 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.cert-title{
+  font-size:15px;
+  font-weight:600;
+  color:var(--deep-green);
+  margin-bottom:8px;
+  letter-spacing:0.05em;
+}
+.cert-number{
+  font-size:13px;
+  color:var(--gray-600);
+  line-height:1.8;
+  font-family:'Noto Sans SC',monospace;
+}
+.cert-highlight{
+  background:linear-gradient(135deg,var(--deep-green),var(--moss-green));
+  border-radius:6px;
+  padding:32px 28px;
+  text-align:center;
+  color:var(--warm-white);
+  position:relative;
+  overflow:hidden;
+}
+.cert-highlight::before{
+  content:'';
+  position:absolute;
+  top:-30px;right:-30px;
+  width:120px;height:120px;
+  border:2px solid rgba(201,169,97,0.15);
+  border-radius:50%;
+}
+.cert-highlight-title{
+  font-size:18px;
+  font-weight:700;
+  color:var(--gold);
+  margin-bottom:10px;
+  letter-spacing:0.1em;
+}
+.cert-highlight-text{
+  font-size:14px;
+  color:rgba(255,255,255,0.8);
+  line-height:1.8;
+}
+
+/* ===== 注意事项 ===== */
+.notice{background:var(--cream)}
+.notice-list{
+  background:var(--warm-white);
+  border-radius:6px;
+  padding:32px 36px;
+  box-shadow:0 4px 20px rgba(27,77,62,0.06);
+}
+.notice-item{
+  display:flex;
+  gap:16px;
+  padding:14px 0;
+  border-bottom:1px dashed var(--line);
+  font-size:14px;
+  color:#333;
+  line-height:1.9;
+}
+.notice-item:last-child{border-bottom:none}
+.notice-item-num{
+  flex-shrink:0;
+  width:24px;
+  height:24px;
+  border-radius:50%;
+  background:var(--cream);
+  color:var(--deep-green);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  font-weight:700;
+  margin-top:2px;
+}
+
+/* ===== 品牌介绍 ===== */
+.brand{
+  background:linear-gradient(180deg,var(--ink-green),var(--deep-green));
+  color:var(--warm-white);
+  text-align:center;
+  padding:80px 24px 60px;
+}
+.brand-name{
+  font-size:28px;
+  font-weight:700;
+  color:var(--gold);
+  letter-spacing:0.2em;
+  margin-bottom:12px;
+  text-indent:0.2em;
+}
+.brand-slogan{
+  font-size:15px;
+  letter-spacing:0.35em;
+  color:rgba(255,255,255,0.6);
+  margin-bottom:40px;
+  text-indent:0.35em;
+}
+.brand-desc{
+  max-width:560px;
+  margin:0 auto 40px;
+  font-size:14px;
+  line-height:2.1;
+  color:rgba(255,255,255,0.7);
+  text-align:justify;
+}
+.brand-tags{
+  display:flex;
+  justify-content:center;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-bottom:48px;
+}
+.brand-tag{
+  font-size:12px;
+  letter-spacing:0.15em;
+  color:var(--gold-light);
+  border:1px solid rgba(201,169,97,0.3);
+  padding:8px 20px;
+  border-radius:2px;
+  text-indent:0.15em;
+}
+.brand-footer{
+  font-size:12px;
+  color:rgba(255,255,255,0.3);
+  letter-spacing:0.1em;
+  line-height:2;
+  padding-top:32px;
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+.brand-footer strong{color:rgba(255,255,255,0.45);font-weight:400}
+
+/* ===== 响应式 ===== */
+@media(max-width:640px){
+  .section{padding:56px 20px}
+  .section-title{font-size:26px;margin-bottom:36px}
+  .ingredient-grid{grid-template-columns:repeat(2,1fr);gap:14px}
+  .ingredient-card{padding:22px 12px 20px}
+  .ingredient-char{font-size:36px}
+  .cert-grid{grid-template-columns:1fr}
+  .notice-list{padding:24px 20px}
+  .spec-table th{width:38%;padding:14px 14px;font-size:13px}
+  .spec-table td{padding:14px 14px;font-size:13px}
+  .usage-step{gap:16px}
+  .usage-num{width:48px;height:48px;font-size:18px}
+  .usage-step:not(:last-child)::after{left:23px;top:64px}
+  .hero{min-height:90vh;padding:40px 20px 60px}
+  .hero-subtitle{font-size:14px;padding:8px 24px}
+  .brand-tags{gap:10px}
+  .brand-tag{padding:6px 14px;font-size:11px}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <img class="hero-product" src="assets/product.jpg" alt="乳腺消结保健贴产品图">
+  <div class="hero-brand serif">雲 茜 姐 姐</div>
+  <h1 class="hero-name serif">乳腺消结<br>保健贴</h1>
+  <div class="hero-pinyin">RUXIAN XIAOJIE BAOJIANTIE</div>
+  <div class="hero-subtitle">保健用品 · 草本贴敷</div>
+  <div class="hero-scroll">向下滑动</div>
+</section>
+
+<!-- ===== 产品简介 ===== -->
+<section class="section intro">
+  <div class="section-inner">
+    <div class="divider-title">产 品 简 介</div>
+    <h2 class="section-title serif">草本配方 · 外用贴敷</h2>
+    <p class="intro-text">
+      乳腺消结保健贴是<strong>雲茜姐姐</strong>品牌旗下外用保健用品，以乌头、干姜、白胡椒、北细辛、肉桂、丁香、钻叶紫菀、香附、青皮、川芎等多种原料为主要成分，经特定工艺加工而成。
+    </p>
+    <p class="intro-text">
+      本品由河南省百消利民医药科技有限公司生产，昆明新根源生物科技合伙企业委托出品。贴剂设计，撕开即贴，适合日常外用保健场景。
+    </p>
+    <div class="intro-tip">
+      <div class="intro-tip-title">使用提示</div>
+      <div class="intro-tip-text">
+        本品以多种传统草本原料精制而成，贴敷于不适处体表，配合轻柔按摩，便于有效成分渗透吸收。独立包装设计，便携易带，适合居家及外出时使用。建议每日使用1次，坚持外用保健。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 草本成分 ===== -->
+<section class="section ingredients">
+  <div class="section-inner">
+    <div class="divider-title">原 料 可 溯</div>
+    <h2 class="section-title serif">草本成分</h2>
+    <div class="ingredient-grid">
+      <div class="ingredient-card">
+        <div class="ingredient-char">乌</div>
+        <div class="ingredient-name">乌头</div>
+        <div class="ingredient-desc">毛茛科植物乌头的块根</div>
+      </div>
+      <div class="ingredient-card">
+        <div class="ingredient-char">姜</div>
+        <div class="ingredient-name">干姜</div>
+        <div class="ingredient-desc">姜科植物姜的干燥根茎</div>
+      </div>
+      <div class="ingredient-card">
+        <div class="ingredient-char">桂</div>
+        <div class="ingredient-name">肉桂</div>
+        <div class="ingredient-desc">樟科植物肉桂的干燥树皮</div>
+      </div>
+      <div class="ingredient-card">
+        <div class="ingredient-char">辛</div>
+        <div class="ingredient-name">北细辛</div>
+        <div class="ingredient-desc">马兜铃科植物北细辛的全草</div>
+      </div>
+      <div class="ingredient-card">
+        <div class="ingredient-char">芎</div>
+        <div class="ingredient-name">川芎</div>
+        <div class="ingredient-desc">伞形科植物川芎的干燥根茎</div>
+      </div>
+      <div class="ingredient-card">
+        <div class="ingredient-char">附</div>
+        <div class="ingredient-name">香附</div>
+        <div class="ingredient-desc">莎草科植物莎草的干燥根茎</div>
+      </div>
+    </div>
+    <div class="ingredient-note">— 以上为部分主要原料展示 —</div>
+    <div class="ingredient-full">
+      <div class="ingredient-full-title">完整原料组成</div>
+      <div class="ingredient-full-text">
+        乌头、干姜、白胡椒、北细辛、肉桂、丁香、钻叶紫菀、香附、青皮、川芎等为主要原料，经特定工艺加工而成。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 使用方法 ===== -->
+<section class="section usage">
+  <div class="section-inner">
+    <div class="divider-title">撕 开 即 贴</div>
+    <h2 class="section-title serif">使用方法</h2>
+    <div class="usage-steps">
+      <div class="usage-step">
+        <div class="usage-num">1</div>
+        <div class="usage-content">
+          <div class="usage-step-title">清洁皮肤</div>
+          <div class="usage-step-desc">使用前，请先清洁并擦干不适处皮肤，确保贴敷部位干净、干燥，无汗液及油脂。</div>
+        </div>
+      </div>
+      <div class="usage-step">
+        <div class="usage-num">2</div>
+        <div class="usage-content">
+          <div class="usage-step-title">取出贴剂</div>
+          <div class="usage-step-desc">沿缺口撕开包装袋，取出贴剂，轻轻揭掉贴片上的隔离膜，注意避免触碰药面。</div>
+        </div>
+      </div>
+      <div class="usage-step">
+        <div class="usage-num">3</div>
+        <div class="usage-content">
+          <div class="usage-step-title">贴敷按摩</div>
+          <div class="usage-step-desc">将贴剂贴于乳房不适处，并用手掌轻轻按摩1-2分钟，以促进有效成分渗透吸收。</div>
+        </div>
+      </div>
+      <div class="usage-step">
+        <div class="usage-num">4</div>
+        <div class="usage-content">
+          <div class="usage-step-title">每日一次</div>
+          <div class="usage-step-desc">建议每日使用1次，坚持外用保健。使用过程中如有不适，应立即停用。</div>
+        </div>
+      </div>
+    </div>
+    <div class="usage-warm">
+      <div class="usage-warm-text">
+        <strong>温馨提示：</strong>本品为外用保健用品，不能代替药品和医疗器械的治疗。如身体持续不适或症状加重，请及时前往正规医疗机构就诊。
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 产品参数 ===== -->
+<section class="section specs">
+  <div class="section-inner">
+    <div class="divider-title">规 格 明 细</div>
+    <h2 class="section-title serif">产品参数</h2>
+    <table class="spec-table">
+      <tr>
+        <th>产品名称</th>
+        <td>乳腺消结保健贴</td>
+      </tr>
+      <tr>
+        <th>产品类型</th>
+        <td>保健用品（外用贴剂）</td>
+      </tr>
+      <tr>
+        <th>适宜人群</th>
+        <td>适宜于因乳腺增生、结节与囊肿等引起的亚健康人群，促进健康</td>
+      </tr>
+      <tr>
+        <th>规　格</th>
+        <td>6贴/盒</td>
+      </tr>
+      <tr>
+        <th>使用方式</th>
+        <td>外用，建议每日1次</td>
+      </tr>
+      <tr>
+        <th>保 质 期</th>
+        <td>24个月</td>
+      </tr>
+      <tr>
+        <th>贮存方法</th>
+        <td>密封，置阴凉干燥处保存，避免阳光直射</td>
+      </tr>
+      <tr>
+        <th>执行标准</th>
+        <td>T/HYBX0003-2019</td>
+      </tr>
+      <tr>
+        <th>生产企业</th>
+        <td>河南省百消利民医药科技有限公司</td>
+      </tr>
+      <tr>
+        <th>委托单位</th>
+        <td>昆明新根源生物科技合伙企业</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 资质保障 ===== -->
+<section class="section cert">
+  <div class="section-inner">
+    <div class="divider-title">规 范 生 产</div>
+    <h2 class="section-title serif">资质与保障</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-icon">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <rect x="6" y="4" width="32" height="36" rx="2" stroke="#C9A961" stroke-width="1.5"/>
+            <path d="M14 14h16M14 20h16M14 26h10" stroke="#1B4D3E" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="32" cy="32" r="6" fill="#C9A961"/>
+            <path d="M29.5 32l1.8 1.8 3-3" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="cert-title">生产达标证</div>
+        <div class="cert-number">豫健用生【2022】<br>第0021号</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <path d="M22 4l14 5v10c0 9-6 16-14 19-8-3-14-10-14-19V9l14-5z" stroke="#C9A961" stroke-width="1.5" fill="none"/>
+            <path d="M16 22l4 4 8-8" stroke="#1B4D3E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="cert-title">产品达标证</div>
+        <div class="cert-number">豫健用品【2021】<br>第0355号</div>
+      </div>
+    </div>
+    <div class="cert-highlight">
+      <div class="cert-highlight-title serif">产品责任保险</div>
+      <div class="cert-highlight-text">
+        本产品由中国人民保险（PICC）<br>承保产品责任险
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 注意事项 ===== -->
+<section class="section notice">
+  <div class="section-inner">
+    <div class="divider-title">安 全 提 示</div>
+    <h2 class="section-title serif">注意事项</h2>
+    <div class="notice-list">
+      <div class="notice-item">
+        <div class="notice-item-num">1</div>
+        <div>本品仅限外用，严禁内服。</div>
+      </div>
+      <div class="notice-item">
+        <div class="notice-item-num">2</div>
+        <div>局部皮肤破损者禁用。</div>
+      </div>
+      <div class="notice-item">
+        <div class="notice-item-num">3</div>
+        <div>对本品及所含成分过敏者禁用，过敏体质者慎用。</div>
+      </div>
+      <div class="notice-item">
+        <div class="notice-item-num">4</div>
+        <div>孕妇及哺乳期妇女禁用。</div>
+      </div>
+      <div class="notice-item">
+        <div class="notice-item-num">5</div>
+        <div>使用本品后，如有不适，应立即停用。</div>
+      </div>
+      <div class="notice-item">
+        <div class="notice-item-num">6</div>
+        <div>本品为保健用品，不可代替药品和医疗器械的治疗。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 品牌介绍 ===== -->
+<section class="brand">
+  <div class="brand-name serif">雲茜姐姐</div>
+  <div class="brand-slogan">自然馈赠 · 健康养生</div>
+  <p class="brand-desc">
+    雲茜姐姐品牌由雲茜科技有限公司运营，创立于2017年，秉承"仁德精进，包容创新"的企业理念，以"一切为了人类健康"为使命，致力于草本健康产品的研发与推广。系列外用保健用品由河南省百消利民医药科技有限公司生产，规范生产，品质可控。
+  </p>
+  <div class="brand-tags">
+    <span class="brand-tag">2017年创立</span>
+    <span class="brand-tag">草本配方</span>
+    <span class="brand-tag">规范生产</span>
+    <span class="brand-tag">PICC承保</span>
+  </div>
+  <div class="brand-footer">
+    <strong>品牌：</strong>雲茜姐姐　｜　<strong>运营：</strong>雲茜科技有限公司<br>
+    本品为保健用品，不能代替药品和医疗器械的治疗
+  </div>
+</section>
+
+</body>
+</html>
